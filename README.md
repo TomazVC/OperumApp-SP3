@@ -1,49 +1,33 @@
 # 💼 Operum - Assessor Virtual de Investimentos
-
-**CP3 - Mobile Development and IoT**  
+ 
 **React Native + Expo + TypeScript**
 
 ## 📋 Sobre o Projeto
 
-O Operum é um aplicativo mobile de assessoria virtual de investimentos desenvolvido como projeto do CP3. O app oferece diagnóstico de perfil do investidor, carteiras recomendadas, simulador de investimentos e conteúdo educacional sobre o mercado financeiro.
+O Operum é um aplicativo mobile de assessoria virtual de investimentos desenvolvido como projeto do Challenge. O app oferece diagnóstico de perfil do investidor, carteiras recomendadas, simulador de investimentos e conteúdo educacional sobre o mercado financeiro.
 
 ## 👥 Integrantes
 
-- **Lucas Laia Manentti** — RM 97709
 - **Pedro Oliveira Valotto** — RM 551445
 - **Rony Ken Nagai** — RM 551549
 - **Tomáz Versolato Carballo** — RM 551417
 
 ## 🎯 Funcionalidades Implementadas
 
-### ✅ Pontuação CP3 (100 pontos)
+### ✅ Pontuação SP3
 
-#### 🏠 Home com Navegação (25 pontos)
-- ✅ **Tab Navigation** com 5 abas (Home, Carteiras, Simulador, Educação, Perfil)
-- ✅ Navegação fluida entre todas as telas
-- ✅ Atalhos visuais para acesso rápido às funcionalidades
-- ✅ Interface responsiva e acessível
+#### 🏠 Home com Navegação
 
-#### 🔐 Tela de Login com AsyncStorage (25 pontos)
-- ✅ **Login funcional** com validação (email deve conter "@", senha ≥ 4 caracteres)
-- ✅ **AsyncStorage** para persistir sessão do usuário
-- ✅ **Logout** que limpa dados armazenados
-- ✅ **Proteção de rotas** - redirecionamento automático baseado no status de autenticação
-- ✅ **Credenciais de teste** disponíveis no app
+#### 🔐 Tela de Login com AsyncStorage
 
-#### 📱 Telas com Conteúdo Real (40 pontos)
+#### 📱 Telas com Conteúdo Real
 1. **🏠 Home**: Boas-vindas personalizadas, informações do perfil, acesso rápido
 2. **💼 Carteiras**: Lista de carteiras por perfil (conservador, moderado, agressivo) com detalhes
 3. **📊 Simulador**: Sliders para alocação de ativos, cálculo de projeções, gráfico de resultado
 4. **📚 Educação**: FAQ interativo com busca, categorias, demonstração de chat
 5. **⚙️ Perfil**: Informações do usuário, características do perfil, configurações, logout
 
-#### 🏗️ Arquitetura Clara (10 pontos)
-- ✅ **Estrutura de pastas** organizada e modular
-- ✅ **Componentes reutilizáveis** (Button, Input, Card, EmptyState)
-- ✅ **Hooks personalizados** para autenticação
-- ✅ **Tipos TypeScript** bem definidos
-- ✅ **Separação de responsabilidades**
+#### 🏗️ Arquitetura Clara
 
 ## 🚀 Como Rodar o Projeto
 
@@ -107,11 +91,6 @@ npx expo start --web
 - **Senha:** `1234`
 - **Email:** `agressivo@operum.app` (perfil agressivo)
 - **Senha:** `1234`
-
-### Regra de Login:
-- ✅ Email deve conter "@"
-- ✅ Senha deve ter pelo menos 4 caracteres
-- ✅ O perfil é determinado automaticamente baseado no email
 
 ## 📂 Estrutura do Projeto
 
@@ -201,49 +180,4 @@ OperumApp/
 - Cálculo automático de rentabilidade e risco
 - Projeções para 12, 24 e 36 meses
 
-## 🐛 Troubleshooting
-
-### Erro ao iniciar:
-```bash
-# Limpar cache
-npx expo start -c
-
-# Reinstalar dependências
-rm -rf node_modules
-npm install
-```
-
-### Problemas de navegação:
-- Verifique se todas as dependências foram instaladas
-- Reinicie o metro bundler
-
-### AsyncStorage não funciona:
-- Teste em dispositivo físico ou emulador (não funciona no web)
-
-## 📝 Observações de Desenvolvimento
-
-### Decisões Técnicas:
-- **Tab Navigation** escolhida por melhor UX mobile
-- **AsyncStorage** para persistência simples e eficaz
-- **Dados mock** bem estruturados para demonstrar funcionalidades
-- **TypeScript** para maior robustez e manutenibilidade
-
-### Melhorias Futuras:
-- Integração com APIs reais de investimentos
-- Gráficos mais avançados com bibliotecas especializadas
-- Sistema de notificações push
-- Biometria para autenticação
-- Modo escuro
-
-## ✅ Checklist de Aceite
-
-- [x] `git clone`, `npm i`, `npx expo start` — **sem erro**
-- [x] Login grava/limpa sessão; redireciona corretamente
-- [x] Navegação entre **todas** as telas funciona
-- [x] Existem **≥ 3** telas de conteúdo útil (Carteiras, Simulador, Educação)
-- [x] Arquitetura/pastas conforme descrito; componentes reutilizados
-- [x] README completo com nomes/RMs e instruções
-
 ---
-
-**Desenvolvido com ❤️ pela equipe FIAP para o CP3 - Mobile Development and IoT**

@@ -1,0 +1,19 @@
+URL DO REPOSITÓRIO GITHUB/GITLAB:
+
+[Esta URL deve ser preenchida quando o projeto for enviado para um repositório online]
+
+INSTRUÇÕES PARA SUBMISSÃO:
+1. Criar repositório no GitHub/GitLab
+2. Fazer push de todo o código
+3. Atualizar este arquivo com a URL real
+4. Submeter a URL no sistema da FIAP
+
+PROJETO: Operum - Assessor Virtual de Investimentos
+CP3 - Mobile Development and IoT
+React Native + Expo + TypeScript
+
+INTEGRANTES:
+- Lucas Laia Manentti — RM 97709
+- Pedro Oliveira Valotto — RM 551445  
+- Rony Ken Nagai — RM 551549
+- Tomáz Versolato Carballo — RM 551417
